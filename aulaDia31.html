@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+</head>
+<body>
+	<!--
+		method pode ser get ou post
+
+		get -Envia os dados para uma pagina de destino de forma transparente
+	-->
+ 
+ 	
+     <form action="pagina_de_destino" method="post">
+    Nome<input type="text"  size="40" maxlength="30" name="txtNome"><br>
+
+      Data de Nascimento<input type="text" name="Nascimento"><br>
+     	   Senha<input type="password" name="txtSenha" size="30">
+
+     
+     	  
+     	<p><input type="button" value="Autenticar" name="btnCad"></p>
+        
+     	<input type="button" name="txtLimpar" value="Sair">
+      
+     <hr>
+ 
+     <h3>SEXO</h3>
+     <input type="radio" name="radioSexo" value="M" checked="">Masculino<br>
+     <input type="radio" name="radioSexo"  value="F">Femenina<br>
+     <br>
+     <br>
+     <br>
+     <h3>Estado civil</h3>
+     Casado<input type="radio" name="radioSexo">
+     Solteiro<input type="radio" name="radioSexo">
+     <br>
+     <br>
+     <h3>Selecione seu Pais</h3>
+     <select>
+     <option checked="">BRASIL</option>
+      <option>JAPÃO</option>
+       <option>ALEMANHÃ</option>
+
+
+
+
+
+     </select>
+     <br>
+     <br>
+     <br>
+         <h3>ESTADOS</h3>
+       <select>
+     <option>BELÉM</option>
+      <option>SÃO PAULO</option>
+       <option>RIO GRANDE DO SUL</option>
+     </select>
+
+  </form>
+</body>
+
+
+
+
+
+</html>
